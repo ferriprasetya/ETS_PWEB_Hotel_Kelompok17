@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "name": "Ayana Resort Bali",
+    "location": "Jimbaran",
+    "rating": 4.8,
+    "badge": "Top Rated",
+    "image": "https://images.unsplash.com/photo-1729606559716-78646ff2f3a6?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1729606559716-78646ff2f3a6?w=1200",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "description": "Perched on limestone cliffs above the Indian Ocean, Ayana Resort offers magnificent views, world-class dining, and a luxurious spa experience that is unmatched in Bali.",
+    "features": ["Free Wifi", "Free Cancellation", "No Prepayment"],
+    "rooms": [
+      {
+        "id": "1-r1",
+        "type": "Ocean View Room",
+        "capacity": 2,
+        "price": 4500000,
+        "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800"
+      },
+      {
+        "id": "1-r2",
+        "type": "Resort View Villa",
+        "capacity": 4,
+        "price": 8500000,
+        "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "The Apurva Kempinski Bali",
+    "location": "Nusa Dua",
+    "rating": 4.9,
+    "badge": "Luxury Array",
+    "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=1200"
+    ],
+    "description": "Standing atop the majestic cliff of Nusa Dua, with breathtaking views of the Indian Ocean and a tropical garden. Experience the epitome of beachfront luxury.",
+    "features": ["Breakfast Included", "Free Wifi", "Spa Access"],
+    "rooms": [
+      {
+        "id": "2-r1",
+        "type": "Grand Deluxe Room",
+        "capacity": 2,
+        "price": 5200000,
+        "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800"
+      },
+      {
+        "id": "2-r2",
+        "type": "Cliff Private Pool Ocean Junior Suite",
+        "capacity": 3,
+        "price": 12500000,
+        "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "W Bali - Seminyak",
+    "location": "Seminyak",
+    "rating": 4.7,
+    "badge": "Trendy",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200",
+      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=1200",
+      "https://images.unsplash.com/photo-1551882547-ff40c0d12c56?w=1200",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200"
+    ],
+    "description": "Play out your days in Seminyak, the vibrant heart of Bali. W Bali is your luxury escape with iconic design, pulsating music, and spectacular sunset views.",
+    "features": ["Free Wifi", "Beachfront", "Pool Side Bar"],
+    "rooms": [
+      {
+        "id": "3-r1",
+        "type": "Wonderful Garden View Escape",
+        "capacity": 2,
+        "price": 6000000,
+        "image": "https://images.unsplash.com/photo-1618773928120-2c701c385a4a?w=800"
+      },
+      {
+        "id": "3-r2",
+        "type": "Marvelous One Bedroom Pool Villa",
+        "capacity": 2,
+        "price": 11000000,
+        "image": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Potato Head Suites",
+    "location": "Seminyak",
+    "rating": 4.6,
+    "badge": "Eco Friendly",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14faaf2?w=1200",
+      "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?w=1200",
+      "https://images.unsplash.com/photo-1621293954908-907159247fc8?w=1200",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200"
+    ],
+    "description": "A creative village by the ocean where music, art, design, food, and wellness play together. It's a sanctuary focusing on sustainability and local artisan work.",
+    "features": ["Free Wifi", "Beach Club Access", "Sustainable"],
+    "rooms": [
+      {
+        "id": "4-r1",
+        "type": "Island Suite",
+        "capacity": 2,
+        "price": 4200000,
+        "image": "https://images.unsplash.com/photo-1560185016-acbfa7a731df?w=800"
+      },
+      {
+        "id": "4-r2",
+        "type": "Oceanfront Studio",
+        "capacity": 2,
+        "price": 6800000,
+        "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "The Mulia",
+    "location": "Nusa Dua",
+    "rating": 4.9,
+    "badge": "Guest Favourite",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=1200",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200",
+      "https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd?w=1200"
+    ],
+    "description": "Experience a private sanctuary with stunning coastline views. The Mulia offers world-class dining, unmatched service, and an array of luxurious pools.",
+    "features": ["Breakfast Included", "Free Wifi", "Ocean View"],
+    "rooms": [
+      {
+        "id": "5-r1",
+        "type": "The Earl Suite",
+        "capacity": 2,
+        "price": 7500000,
+        "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800"
+      },
+      {
+        "id": "5-r2",
+        "type": "The Baron Suite",
+        "capacity": 2,
+        "price": 8600000,
+        "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Four Seasons Resort Bali at Sayan",
+    "location": "Ubud",
+    "rating": 4.9,
+    "badge": "Nature Retreat",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200",
+      "https://images.unsplash.com/photo-1501117716987-a8e52ded1c4a?w=1200",
+      "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?w=1200",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14faaf2?w=1200"
+    ],
+    "description": "Suspended between two rivers in the lush Ayung River Valley. Arrive via a dramatic bridge and discover a sanctuary in the cultural heart of Bali.",
+    "features": ["Free Wifi", "Spa Access", "Yoga Room"],
+    "rooms": [
+      {
+        "id": "6-r1",
+        "type": "One-Bedroom Duplex Suite",
+        "capacity": 2,
+        "price": 9500000,
+        "image": "https://images.unsplash.com/photo-1560185016-acbfa7a731df?w=800"
+      },
+      {
+        "id": "6-r2",
+        "type": "One-Bedroom Riverside Villa",
+        "capacity": 2,
+        "price": 14000000,
+        "image": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "St. Regis Bali Resort",
+    "location": "Nusa Dua",
+    "rating": 4.8,
+    "badge": "Exclusive",
+    "image": "https://images.unsplash.com/photo-1522792065601-5e5330e7fd0c?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1522792065601-5e5330e7fd0c?w=1200",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=1200",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14faaf2?w=1200",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200"
+    ],
+    "description": "Radiating absolute beachfront elegance, The St. Regis Bali Resort offers luxury and bespoke 24-hour Butler Service on the pristine beaches of Nusa Dua.",
+    "features": ["Free Wifi", "Butler Service", "Free Cancellation"],
+    "rooms": [
+      {
+        "id": "7-r1",
+        "type": "St. Regis Suite",
+        "capacity": 2,
+        "price": 8200000,
+        "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800"
+      },
+      {
+        "id": "7-r2",
+        "type": "Strand Villa",
+        "capacity": 3,
+        "price": 25000000,
+        "image": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Viceroy Bali",
+    "location": "Ubud",
+    "rating": 4.8,
+    "badge": "Romantic Retreat",
+    "image": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?w=1200",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200"
+    ],
+    "description": "A family-owned luxury resort featuring private pool villas with majestic views of Ubud's Valley of the Kings. Truly an intimate and secluded haven.",
+    "features": ["Breakfast Included", "Free Wifi", "Private Pool"],
+    "rooms": [
+      {
+        "id": "8-r1",
+        "type": "Pool Suite",
+        "capacity": 2,
+        "price": 6800000,
+        "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800"
+      },
+      {
+        "id": "8-r2",
+        "type": "Terrace Villa",
+        "capacity": 2,
+        "price": 8900000,
+        "image": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Conrad Bali",
+    "location": "Nusa Dua",
+    "rating": 4.6,
+    "badge": "Family Friendly",
+    "image": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=1200",
+      "https://images.unsplash.com/photo-1522792065601-5e5330e7fd0c?w=1200",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14faaf2?w=1200"
+    ],
+    "description": "Set amid 7 hectares of tropical gardens and a pristine beach, Conrad Bali provides an idyllic resort destination for family escapes and romantic retreats.",
+    "features": ["Free Wifi", "Kids Club", "No Prepayment"],
+    "rooms": [
+      {
+        "id": "9-r1",
+        "type": "Deluxe Garden View",
+        "capacity": 3,
+        "price": 3100000,
+        "image": "https://images.unsplash.com/photo-1618773928120-2c701c385a4a?w=800"
+      },
+      {
+        "id": "9-r2",
+        "type": "Conrad Ocean Suite",
+        "capacity": 4,
+        "price": 6200000,
+        "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Padma Resort Legian",
+    "location": "Legian",
+    "rating": 4.7,
+    "badge": "Beachfront",
+    "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=1200",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200"
+    ],
+    "description": "Right on the beachfront featuring spectacular sunsets, this extensive resort features multiple pools, diverse dining, and renowned Balinese hospitality.",
+    "features": ["Breakfast Included", "Free Wifi", "Multiple Pools"],
+    "rooms": [
+      {
+        "id": "10-r1",
+        "type": "Deluxe Room",
+        "capacity": 2,
+        "price": 2800000,
+        "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800"
+      },
+      {
+        "id": "10-r2",
+        "type": "Family Room",
+        "capacity": 4,
+        "price": 4500000,
+        "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800"
+      }
+    ]
+  }
+]
