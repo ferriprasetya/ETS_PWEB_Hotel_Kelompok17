@@ -142,7 +142,7 @@ h3,
 
 .back-button.back-button-inline {
   position: static !important;
-  margin: 0.75rem 0 0;
+  margin: 100px 0 0;
 }
 
 @media (max-width: 576px) {
