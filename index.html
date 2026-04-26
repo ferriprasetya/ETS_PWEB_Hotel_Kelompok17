@@ -1,145 +1,218 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NgamarIn - Simple Hotel Booking</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NgamarIn - Simple Hotel Booking</title>
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <!-- Flatpickr CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute w-100 z-3 pt-3">
-    <div class="container glass-panel rounded-pill px-4 py-2">
-      <a class="navbar-brand fw-bold text-dark d-flex align-items-center gap-2" href="index.html">
-        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
-          <i class="bi bi-building"></i>
-        </div>
-        NgamarIn
-      </a>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item mx-2">
-            <a class="nav-link text-dark-emphasis" href="index.html">Home</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link text-dark-emphasis" href="search/index.html">Hotels</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="hero-bg d-flex flex-column justify-content-center text-center text-white pb-5 rounded-bottom-5">
-    <div class="container mt-5 pt-5">
-      <h1 class="font-serif fw-bold display-4 mb-3" style="font-family: 'Playfair Display', serif;">Your Trip Starts Here</h1>
-      <p class="lead fw-normal">Find unique stays across hotels, villas, and more.</p>
-    </div>
-  </header>
-
-  <!-- Floating Search Container -->
-  <form id="heroSearchForm" action="search/index.html" method="GET" class="container search-container-overlap mb-5">
-    <div class="category-tabs shadow-sm d-inline-flex justify-content-center align-items-center gap-3 px-4 py-3 pb-md-3 pb-2 flex-column flex-md-row mx-auto w-fit" style="border-radius: 1.5rem; max-width: 700px;">
-      <div class="search-input-group text-start">
-        <label class="d-block mb-1 text-white small fw-bold">Check In</label>
-        <input type="text" class="w-100 datepicker text-white fw-bold bg-transparent border-0 p-0 m-0" style="outline: none;" name="checkin" placeholder="Add Dates">
-      </div>
-      <div class="d-none d-md-block" style="width: 1px; height: 35px; background: rgba(255,255,255,0.2);"></div>
-      <div class="search-input-group text-start">
-        <label class="d-block mb-1 text-white small fw-bold">Check Out</label>
-        <input type="text" class="w-100 datepicker text-white fw-bold bg-transparent border-0 p-0 m-0" style="outline: none;" name="checkout" placeholder="Add Dates">
-      </div>
-      <div class="d-none d-md-block" style="width: 1px; height: 35px; background: rgba(255,255,255,0.2);"></div>
-      <div class="search-input-group text-start">
-        <label class="d-block mb-1 text-white small fw-bold">Rooms and Guests</label>
-        <input type="text" class="w-100 text-white fw-bold bg-transparent border-0 p-0 m-0" style="outline: none;" name="guests" placeholder="1 room, 2 adults">
-      </div>
-    </div>
-    <div class="card search-card mx-auto glass-panel pt-md-5" style="max-width: 800px; border-radius: 2rem;">
-      <div class="row align-items-center g-0">
-        <div class="col-12 col-md-9 p-2 search-input-group">
-          <label class="d-block mb-1 text-dark-emphasis">Location</label>
-          <input type="text" class="w-100 text-dark-emphasis fw-bold fs-5" name="location" placeholder="Where are you going?">
-        </div>
-        <div class="col-12 col-md-3 p-2 text-md-end text-center mt-2 mt-md-0">
-          <button type="submit" class="btn btn-primary rounded-pill w-100 fw-bold shadow-lg py-3">
-            <i class="bi bi-search me-1"></i> Search
-          </button>
-        </div>
-      </div>
-    </div>
-  </form>
-
-  <!-- Why Travellers Trust Us -->
-  <section class="py-5">
-    <div class="container text-center">
-      <h2 class="fw-bold mb-5" style="font-family: var(--bs-body-font-family);">Why Travellers Trust NgamarIn</h2>
-      <div class="row position-relative">
-        <div class="col-md-4 mb-4">
-          <div class="trust-icon-container">
-            <div class="trust-icon"><i class="bi bi-currency-dollar fs-5"></i></div>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute w-100 z-3 pt-3"
+    >
+      <div class="container glass-panel rounded-pill px-4 py-2">
+        <a class="navbar-brand fw-bold text-dark d-flex align-items-center gap-2" href="index.html">
+          <div
+            class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+            style="width: 32px; height: 32px"
+          >
+            <i class="bi bi-building"></i>
           </div>
-          <h5 class="fw-bold fs-6">No hidden fees</h5>
-          <p class="text-muted small px-3">Transparent pricing with no hidden fees.</p>
-        </div>
-        <!-- Svg connecting line could be placed here with absolute positioning -->
-        <div class="col-md-4 mb-4">
-          <div class="trust-icon-container">
-            <div class="trust-icon"><i class="bi bi-shield-check fs-5"></i></div>
-          </div>
-          <h5 class="fw-bold fs-6">Instant booking</h5>
-          <p class="text-muted small px-3">Get confirmation right after you reserve.</p>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="trust-icon-container">
-            <div class="trust-icon"><i class="bi bi-journal-text fs-5"></i></div>
-          </div>
-          <h5 class="fw-bold fs-6">Flexibility</h5>
-          <p class="text-muted small px-3">Flexible options with free cancellation on many listings.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Trending Destinations Section -->
-  <section class="py-5">
-    <div class="container mt-4">
-      <h2 class="fw-bold mb-4" style="font-family: var(--bs-body-font-family);">Trending Destinations</h2>
-      <div class="row g-4" id="featuredHotelsContainer">
-        <!-- Data will be injected here via app.js -->
-        <div class="col-12 text-center text-muted" id="featuredLoading">
-          <div class="spinner-border text-primary" role="status">
-            <span class="visually-hidden">Loading...</span>
-          </div>
+          NgamarIn
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-dark-emphasis" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-dark-emphasis" href="search/index.html">Hotels</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white py-4 mt-5">
-    <div class="container text-center">
-      <p class="mb-0">&copy; 2026 NgamarIn. All rights reserved.</p>
-    </div>
-  </footer>
+    <!-- Hero Section -->
+    <header
+      class="hero-bg d-flex flex-column justify-content-center text-center text-white pb-5 rounded-bottom-5"
+    >
+      <div class="container mt-5 pt-5">
+        <h1
+          class="font-serif fw-bold display-4 mb-3"
+          style="font-family: 'Playfair Display', serif"
+        >
+          Your Trip Starts Here
+        </h1>
+        <p class="lead fw-normal">Find unique stays across hotels, villas, and more.</p>
+      </div>
+    </header>
 
-  <!-- Bootstrap 5 JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Floating Search Container -->
+    <form
+      id="heroSearchForm"
+      action="search/index.html"
+      method="GET"
+      class="container search-container-overlap mb-5"
+    >
+      <div
+        class="category-tabs shadow-sm d-inline-flex justify-content-center align-items-center gap-3 px-4 py-3 pb-md-3 pb-2 flex-column flex-md-row mx-auto w-fit"
+        style="border-radius: 1.5rem; max-width: 700px"
+      >
+        <div class="search-input-group text-start">
+          <label class="d-block mb-1 text-white small fw-bold">Check In</label>
+          <input
+            type="text"
+            class="w-100 datepicker text-white fw-bold bg-transparent border-0 p-0 m-0"
+            style="outline: none"
+            name="checkin"
+            placeholder="Add Dates"
+          />
+        </div>
+        <div
+          class="d-none d-md-block"
+          style="width: 1px; height: 35px; background: rgba(255, 255, 255, 0.2)"
+        ></div>
+        <div class="search-input-group text-start">
+          <label class="d-block mb-1 text-white small fw-bold">Check Out</label>
+          <input
+            type="text"
+            class="w-100 datepicker text-white fw-bold bg-transparent border-0 p-0 m-0"
+            style="outline: none"
+            name="checkout"
+            placeholder="Add Dates"
+          />
+        </div>
+        <div
+          class="d-none d-md-block"
+          style="width: 1px; height: 35px; background: rgba(255, 255, 255, 0.2)"
+        ></div>
+        <div class="search-input-group text-start">
+          <label class="d-block mb-1 text-white small fw-bold">Rooms and Guests</label>
+          <input
+            type="text"
+            class="w-100 text-white fw-bold bg-transparent border-0 p-0 m-0"
+            style="outline: none"
+            name="guests"
+            placeholder="1 room, 2 adults"
+          />
+        </div>
+      </div>
+      <div
+        class="card search-card mx-auto glass-panel pt-md-5"
+        style="max-width: 800px; border-radius: 2rem"
+      >
+        <div class="row align-items-center g-0">
+          <div class="col-12 col-md-9 p-2 search-input-group">
+            <label class="d-block mb-1 text-dark-emphasis">Location</label>
+            <input
+              type="text"
+              class="w-100 text-dark-emphasis fw-bold fs-5"
+              name="location"
+              placeholder="Where are you going?"
+            />
+          </div>
+          <div class="col-12 col-md-3 p-2 text-md-end text-center mt-2 mt-md-0">
+            <button type="submit" class="btn btn-primary rounded-pill w-100 fw-bold shadow-lg py-3">
+              <i class="bi bi-search me-1"></i> Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
 
-  <!-- Flatpickr JS -->
-  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-  <script type="module" src="script.js"></script>
-</body>
+    <!-- Why Travellers Trust Us -->
+    <section class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-5" style="font-family: var(--bs-body-font-family)">
+          Why Travellers Trust NgamarIn
+        </h2>
+        <div class="row position-relative">
+          <div class="col-md-4 mb-4">
+            <div class="trust-icon-container">
+              <div class="trust-icon"><i class="bi bi-currency-dollar fs-5"></i></div>
+            </div>
+            <h5 class="fw-bold fs-6">No hidden fees</h5>
+            <p class="text-muted small px-3">Transparent pricing with no hidden fees.</p>
+          </div>
+          <!-- Svg connecting line could be placed here with absolute positioning -->
+          <div class="col-md-4 mb-4">
+            <div class="trust-icon-container">
+              <div class="trust-icon"><i class="bi bi-shield-check fs-5"></i></div>
+            </div>
+            <h5 class="fw-bold fs-6">Instant booking</h5>
+            <p class="text-muted small px-3">Get confirmation right after you reserve.</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="trust-icon-container">
+              <div class="trust-icon"><i class="bi bi-journal-text fs-5"></i></div>
+            </div>
+            <h5 class="fw-bold fs-6">Flexibility</h5>
+            <p class="text-muted small px-3">
+              Flexible options with free cancellation on many listings.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Trending Destinations Section -->
+    <section class="py-5">
+      <div class="container mt-4">
+        <h2 class="fw-bold mb-4" style="font-family: var(--bs-body-font-family)">
+          Trending Destinations
+        </h2>
+        <div class="row g-4" id="featuredHotelsContainer">
+          <!-- Data will be injected here via app.js -->
+          <div class="col-12 text-center text-muted" id="featuredLoading">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2026 NgamarIn. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script type="module" src="script.js"></script>
+  </body>
 </html>

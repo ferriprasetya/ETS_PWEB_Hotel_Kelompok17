@@ -87,7 +87,7 @@
         "type": "Wonderful Garden View Escape",
         "capacity": 2,
         "price": 6000000,
-        "image": "https://images.unsplash.com/photo-1618773928120-2c701c385a4a?w=800"
+        "image": "https://plus.unsplash.com/premium_photo-1675745329659-29044cb6adbb?w=800"
       },
       {
         "id": "3-r2",
@@ -120,7 +120,7 @@
         "type": "Island Suite",
         "capacity": 2,
         "price": 4200000,
-        "image": "https://images.unsplash.com/photo-1560185016-acbfa7a731df?w=800"
+        "image": "https://plus.unsplash.com/premium_photo-1687960116836-0eb19ff4fcca?w=800"
       },
       {
         "id": "4-r2",
@@ -186,7 +186,7 @@
         "type": "One-Bedroom Duplex Suite",
         "capacity": 2,
         "price": 9500000,
-        "image": "https://images.unsplash.com/photo-1560185016-acbfa7a731df?w=800"
+        "image": "https://images.unsplash.com/photo-1667375185603-9a0a8f3c63bd?w=800"
       },
       {
         "id": "6-r2",
@@ -203,11 +203,11 @@
     "location": "Nusa Dua",
     "rating": 4.8,
     "badge": "Exclusive",
-    "image": "https://images.unsplash.com/photo-1522792065601-5e5330e7fd0c?w=800",
+    "image": "https://images.unsplash.com/photo-1717850702166-4804294d4d4e?w=800",
     "images": [
-      "https://images.unsplash.com/photo-1522792065601-5e5330e7fd0c?w=1200",
+      "https://images.unsplash.com/photo-1717850702166-4804294d4d4e?w=1200",
       "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=1200",
-      "https://images.unsplash.com/photo-1542314831-c6a4d14faaf2?w=1200",
+      "https://images.unsplash.com/photo-1612320582827-a95ab2596dbc?w=1200",
       "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200",
       "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200"
     ],
@@ -272,10 +272,10 @@
     "image": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=800",
     "images": [
       "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=1200",
-      "https://images.unsplash.com/photo-1522792065601-5e5330e7fd0c?w=1200",
+      "https://images.unsplash.com/photo-1667375185603-9a0a8f3c63bd?w=1200",
       "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200",
       "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200",
-      "https://images.unsplash.com/photo-1542314831-c6a4d14faaf2?w=1200"
+      "https://images.unsplash.com/photo-1612320582827-a95ab2596dbc?w=1200"
     ],
     "description": "Set amid 7 hectares of tropical gardens and a pristine beach, Conrad Bali provides an idyllic resort destination for family escapes and romantic retreats.",
     "features": ["Free Wifi", "Kids Club", "No Prepayment"],
@@ -285,7 +285,7 @@
         "type": "Deluxe Garden View",
         "capacity": 3,
         "price": 3100000,
-        "image": "https://images.unsplash.com/photo-1618773928120-2c701c385a4a?w=800"
+        "image": "https://images.unsplash.com/photo-1612320582827-a95ab2596dbc?w=800"
       },
       {
         "id": "9-r2",
