@@ -235,12 +235,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 
                 <section class="mb-5">
                     <h4 class="fw-bold mb-4">Rooms</h4>
-                    <div class="d-flex gap-2 mb-4 overflow-auto pb-2">
-                        <button class="filter-pill active bg-dark text-white border-dark">All Rooms</button>
-                        <button class="filter-pill">1 Bed</button>
-                        <button class="filter-pill">2 Beds</button>
-                        <button class="filter-pill">3 Beds</button>
-                    </div>
                     <div class="room-list pb-5">
                         ${roomsHtml}
                     </div>
